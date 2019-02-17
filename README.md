@@ -4,4 +4,4 @@ Ejercicio Propuesto para la asignatura DWES, en la que tendré que crear un serv
 con el microframework Slim y hacer un uso de el desde una aplicación Android.
 
 
-<img src="https://i.imgur.com/djY3vXV.png" width="400"> </img>
+<img src="https://i.imgur.com/eqH95A0.png" width="400"> </img>
