@@ -1,0 +1,76 @@
+[17-Feb-2019 00:18:15 UTC] PHP Warning:  require(../classes/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:18:15 UTC] PHP Fatal error:  require(): Failed opening required '../classes/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:18:41 UTC] PHP Warning:  require(./classes/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:18:41 UTC] PHP Fatal error:  require(): Failed opening required './classes/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:19:00 UTC] PHP Warning:  require(classes/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:19:00 UTC] PHP Fatal error:  require(): Failed opening required 'classes/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:19:25 UTC] PHP Warning:  require(classes/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:19:25 UTC] PHP Fatal error:  require(): Failed opening required 'classes/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:19:28 UTC] PHP Warning:  require(classes/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:19:28 UTC] PHP Fatal error:  require(): Failed opening required 'classes/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:19:51 UTC] PHP Warning:  require(../classes/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:19:51 UTC] PHP Fatal error:  require(): Failed opening required '../classes/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:20:12 UTC] PHP Warning:  require(classes/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:20:12 UTC] PHP Fatal error:  require(): Failed opening required 'classes/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:20:47 UTC] PHP Warning:  require(../classes/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:20:47 UTC] PHP Fatal error:  require(): Failed opening required '../classes/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:21:47 UTC] PHP Warning:  require(../classes/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:21:47 UTC] PHP Fatal error:  require(): Failed opening required '../classes/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 11
+[17-Feb-2019 00:24:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Doctrine\Common\Collections\ArrayCollection' not found in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Zapato.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/Slim-Android/Slim/Slim.php(15): data\Zapato->__construct(1, 2, 3)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Zapato.php on line 87
+[17-Feb-2019 00:24:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Doctrine\Common\Collections\ArrayCollection' not found in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Zapato.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/Slim-Android/Slim/Slim.php(15): data\Zapato->__construct()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Zapato.php on line 87
+[17-Feb-2019 00:26:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Doctrine\Common\Collections\ArrayCollection' not found in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Zapato.php:87
+Stack trace:
+#0 /home/ubuntu/workspace/Slim-Android/Slim/Slim.php(16): data\Zapato->__construct()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Zapato.php on line 87
+[17-Feb-2019 00:28:34 UTC] PHP Notice:  Undefined variable: zapato in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 17
+[17-Feb-2019 00:28:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setId() on null in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 17
+[17-Feb-2019 00:28:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method data\Zapato::setId() in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/Slim-Android/Slim/Slim.php on line 17
+[17-Feb-2019 00:38:20 UTC] PHP Notice:  Undefined variable: app in /home/ubuntu/workspace/Slim-Android/Slim/slim.php on line 17
+[17-Feb-2019 00:38:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/ubuntu/workspace/Slim-Android/Slim/slim.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/Slim-Android/Slim/slim.php on line 17
+[17-Feb-2019 00:43:51 UTC] Slim Application Error:
+Type: RuntimeException
+Message: Callable obtenerZapatos does not exist
+File: /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/CallableResolver.php
+Line: 90
+Trace: #0 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('obtenerZapatos')
+#1 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('obtenerZapatos')
+#2 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('obtenerZapatos')
+#3 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(516): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(407): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(315): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/ubuntu/workspace/Slim-Android/Slim/slim.php(33): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[17-Feb-2019 00:44:25 UTC] PHP Fatal error:  Trait 'data\Common' not found in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Categoria.php on line 10
+[17-Feb-2019 00:45:16 UTC] PHP Fatal error:  Trait 'data\Common' not found in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Categoria.php on line 10
+[17-Feb-2019 00:45:23 UTC] PHP Fatal error:  Trait 'data\Common' not found in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Categoria.php on line 10
+[17-Feb-2019 00:45:27 UTC] PHP Fatal error:  Trait 'data\Common' not found in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Categoria.php on line 10
+[17-Feb-2019 00:45:30 UTC] PHP Fatal error:  Trait 'data\Common' not found in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Categoria.php on line 10
+[17-Feb-2019 00:45:45 UTC] PHP Fatal error:  Trait 'data\data\Common' not found in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Categoria.php on line 10
+[17-Feb-2019 00:45:54 UTC] PHP Fatal error:  Trait 'data\data\Common' not found in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Categoria.php on line 10
+[17-Feb-2019 00:46:04 UTC] PHP Fatal error:  Trait 'data\data\Common' not found in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Categoria.php on line 10
+[17-Feb-2019 00:46:29 UTC] PHP Fatal error:  Trait 'data\data\Common' not found in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Categoria.php on line 10
+[17-Feb-2019 00:46:38 UTC] PHP Fatal error:  Trait 'data\Common' not found in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Categoria.php on line 10
+[17-Feb-2019 00:53:07 UTC] PHP Catchable fatal error:  Object of class data\Prueba could not be converted to string in /home/ubuntu/workspace/Slim-Android/Slim/slim.php on line 31
