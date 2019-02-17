@@ -5,11 +5,15 @@ namespace data;
 
 class Prueba {
     
-    private $datoprimero, $datosegundo;
+    public $datoprimero, $datosegundo;
     
-    function __constructor($datoprimero = "Dato 1", $datosegundo = "Dato 2") {
+    function __construct($datoprimero = "Dato 1", $datosegundo = "Dato 2") {
         $this->datoprimero = $datoprimero;
         $this->datosegundo = $datosegundo;
+    }
+    
+    function getDatos() {
+        return $this->datoprimero . " y " . $this->datosegundo;
     }
     
 }

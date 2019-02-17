@@ -74,3 +74,142 @@ View in rendered output by enabling the "displayErrorDetails" setting.
 [17-Feb-2019 00:46:29 UTC] PHP Fatal error:  Trait 'data\data\Common' not found in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Categoria.php on line 10
 [17-Feb-2019 00:46:38 UTC] PHP Fatal error:  Trait 'data\Common' not found in /home/ubuntu/workspace/Slim-Android/Slim/classes/data/Categoria.php on line 10
 [17-Feb-2019 00:53:07 UTC] PHP Catchable fatal error:  Object of class data\Prueba could not be converted to string in /home/ubuntu/workspace/Slim-Android/Slim/slim.php on line 31
+[17-Feb-2019 10:19:44 UTC] PHP Notice:  Undefined variable: gestor in /home/ubuntu/workspace/Slim-Android/Slim/slim.php on line 36
+[17-Feb-2019 10:19:44 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function find() on null
+File: /home/ubuntu/workspace/Slim-Android/Slim/slim.php
+Line: 36
+Trace: #0 [internal function]: obtenerCategorias(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func('obtenerCategori...', Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke('obtenerCategori...', Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(516): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(407): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(315): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/ubuntu/workspace/Slim-Android/Slim/slim.php(44): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[17-Feb-2019 10:19:53 UTC] PHP Notice:  Undefined variable: gestor in /home/ubuntu/workspace/Slim-Android/Slim/slim.php on line 36
+[17-Feb-2019 10:19:53 UTC] Slim Application Error:
+Type: Error
+Message: Call to a member function find() on null
+File: /home/ubuntu/workspace/Slim-Android/Slim/slim.php
+Line: 36
+Trace: #0 [internal function]: obtenerCategorias(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func('obtenerCategori...', Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke('obtenerCategori...', Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(516): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(407): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(315): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/ubuntu/workspace/Slim-Android/Slim/slim.php(44): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[17-Feb-2019 10:20:29 UTC] Slim Application Error:
+Type: Error
+Message: Using $this when not in object context
+File: /home/ubuntu/workspace/Slim-Android/Slim/slim.php
+Line: 36
+Trace: #0 [internal function]: obtenerCategorias(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func('obtenerCategori...', Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke('obtenerCategori...', Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(516): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(407): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(315): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/ubuntu/workspace/Slim-Android/Slim/slim.php(45): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[17-Feb-2019 10:20:34 UTC] Slim Application Error:
+Type: Error
+Message: Using $this when not in object context
+File: /home/ubuntu/workspace/Slim-Android/Slim/slim.php
+Line: 36
+Trace: #0 [internal function]: obtenerCategorias(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func('obtenerCategori...', Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke('obtenerCategori...', Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(516): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(407): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(315): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/ubuntu/workspace/Slim-Android/Slim/slim.php(45): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[17-Feb-2019 10:21:21 UTC] Slim Application Error:
+Type: Error
+Message: Using $this when not in object context
+File: /home/ubuntu/workspace/Slim-Android/Slim/slim.php
+Line: 42
+Trace: #0 [internal function]: obtenerCategorias(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func('obtenerCategori...', Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke('obtenerCategori...', Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(516): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(407): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(315): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/ubuntu/workspace/Slim-Android/Slim/slim.php(51): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[17-Feb-2019 10:21:23 UTC] Slim Application Error:
+Type: Error
+Message: Using $this when not in object context
+File: /home/ubuntu/workspace/Slim-Android/Slim/slim.php
+Line: 42
+Trace: #0 [internal function]: obtenerCategorias(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func('obtenerCategori...', Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke('obtenerCategori...', Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(516): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(407): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(315): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/ubuntu/workspace/Slim-Android/Slim/slim.php(51): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[17-Feb-2019 10:21:25 UTC] Slim Application Error:
+Type: Error
+Message: Using $this when not in object context
+File: /home/ubuntu/workspace/Slim-Android/Slim/slim.php
+Line: 42
+Trace: #0 [internal function]: obtenerCategorias(Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#1 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func('obtenerCategori...', Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke('obtenerCategori...', Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(516): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(407): Slim\App->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /home/ubuntu/workspace/Slim-Android/Slim/vendor/slim/slim/Slim/App.php(315): Slim\App->process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /home/ubuntu/workspace/Slim-Android/Slim/slim.php(51): Slim\App->run()
+#10 {main}
+View in rendered output by enabling the "displayErrorDetails" setting.
+
+[17-Feb-2019 10:22:45 UTC] PHP Notice:  Undefined variable: app in /home/ubuntu/workspace/Slim-Android/Slim/slim.php on line 42
+[17-Feb-2019 10:23:01 UTC] PHP Notice:  Undefined variable: container in /home/ubuntu/workspace/Slim-Android/Slim/slim.php on line 42
+[17-Feb-2019 10:26:41 UTC] PHP Warning:  Missing argument 2 for Doctrine\ORM\EntityManager::find(), called in /home/ubuntu/workspace/Slim-Android/Slim/slim.php on line 39 and defined in /home/ubuntu/workspace/Slim-Android/Slim/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php on line 377
+[17-Feb-2019 10:26:41 UTC] PHP Notice:  Undefined variable: id in /home/ubuntu/workspace/Slim-Android/Slim/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php on line 381
+[17-Feb-2019 10:26:41 UTC] PHP Notice:  Undefined variable: id in /home/ubuntu/workspace/Slim-Android/Slim/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php on line 386
+[17-Feb-2019 10:36:02 UTC] PHP Notice:  Undefined property: Doctrine\ORM\EntityManager::$db in /home/ubuntu/workspace/Slim-Android/Slim/slim.php on line 40
+[17-Feb-2019 10:37:47 UTC] PHP Notice:  Undefined variable: app in /home/ubuntu/workspace/Slim-Android/Slim/slim.php on line 40
+[17-Feb-2019 10:41:59 UTC] PHP Warning:  Missing argument 2 for Doctrine\ORM\EntityManager::find(), called in /home/ubuntu/workspace/Slim-Android/Slim/slim.php on line 39 and defined in /home/ubuntu/workspace/Slim-Android/Slim/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php on line 377
+[17-Feb-2019 10:41:59 UTC] PHP Notice:  Undefined variable: id in /home/ubuntu/workspace/Slim-Android/Slim/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php on line 381
+[17-Feb-2019 10:41:59 UTC] PHP Notice:  Undefined variable: id in /home/ubuntu/workspace/Slim-Android/Slim/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php on line 386
+[17-Feb-2019 10:54:21 UTC] PHP Notice:  Undefined variable: zapatos in /home/ubuntu/workspace/Slim-Android/Slim/slim.php on line 51
