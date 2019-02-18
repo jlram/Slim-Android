@@ -13,6 +13,18 @@ import android.support.v7.widget.RecyclerView;
 import android.transition.Explode;
 import android.view.MenuItem;
 import android.view.Window;
+import android.widget.Toast;
+
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonArrayRequest;
+import com.android.volley.toolbox.Volley;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +36,10 @@ public class CategoriesActivity extends AppCompatActivity {
     List<String> list;
     Adaptador adapter;
 
+    String URLConsulta;
+    Request consulta;
+    RequestQueue queue;
+
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,15 +49,15 @@ public class CategoriesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_categories);
 
         setTitle("Categorías");
-        setTitleColor(Color.BLACK);
 
         recyclerView = findViewById(R.id.recyclerCat);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
+        queue = Volley.newRequestQueue(this);
+        cargarCategorias();
+
         list = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
-            list.add("Categoría");
-        }
+
         adapter = new Adaptador(this, list);
         recyclerView.setAdapter(adapter);
 
@@ -70,5 +86,37 @@ public class CategoriesActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void cargarCategorias() {
+        URLConsulta = "https://slim-android-jlramos97.c9users.io/Slim-Android/Slim/api/v1/categorias";
+
+        consulta = new JsonArrayRequest(Request.Method.GET, URLConsulta, null, new Response.Listener<JSONArray>() {
+            @Override
+            public void onResponse(JSONArray response) {
+
+                try {
+                    for (int i = 0; i < response.length(); i++) {
+                            JSONObject jo = response.getJSONObject(i);
+                            String categoria = jo.getString("nombre");
+                            list.add(categoria);
+                        }
+                    }
+                 catch (JSONException e) {
+                    e.printStackTrace();
+                    Toast.makeText(CategoriesActivity.this, "Error llamando a la base de datos", Toast.LENGTH_SHORT).show();
+                }
+
+                adapter = new Adaptador(CategoriesActivity.this, list);
+                recyclerView.setAdapter(adapter);
+
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(CategoriesActivity.this, "Ha ocurrido un error.", Toast.LENGTH_SHORT).show();
+            }
+        });
+        queue.add(consulta);
     }
 }
