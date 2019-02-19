@@ -10,7 +10,7 @@ class Zapato {
      * @Id
      * @Column(type="integer") @GeneratedValue
      */
-    public $id;
+    public $id = null;
     
     /**
      * @Column(type="string", length=40, nullable=false)

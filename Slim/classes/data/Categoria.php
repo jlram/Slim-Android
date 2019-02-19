@@ -13,7 +13,7 @@ class Categoria {
      * @Id
      * @Column(type="integer") @GeneratedValue
      */
-    public $id;
+    public $id = null;
     
     /**
      * @Column(type="string", length=100, unique=true, nullable=false)
@@ -24,7 +24,7 @@ class Categoria {
     /**
      * Constructor
      */
-    public function __construct($id, $nombre) {
+    public function __construct($nombre, $id) {
        $this->id = $id;
        $this->nombre = $nombre;
     }
